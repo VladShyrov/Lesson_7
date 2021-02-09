@@ -1,0 +1,255 @@
+/* Подключение шрифтов */
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700");
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700");
+
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-Thin.woff2") format("woff2"),
+    url("../fonts/Acrom-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Futura PT";
+  src: url("../fonts/FuturaPT-Light.woff2") format("woff2"),
+    url("../fonts/FuturaPT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+/* Стили обнуления */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+/* рахмер для картинок */
+img {
+  max-width: 100%;
+}
+/* Граница тела */
+body {
+  width: 100%;
+  background: linear-gradient(to right, #51df0f 25%, #5eaf08 56%, #90af2a 70%);
+}
+/* Стили для навигации */
+.nav_header {
+  border: 2px solid black;
+  margin: 15px;
+  background: url(../img/cat.png) right/150px fixed,
+    url(../img/ephemeral_header02.jpg) 50% / cover no-repeat;
+}
+li {
+  display: inline-block;
+  padding: 20px;
+}
+.button {
+  display: inline-block;
+  margin: 30px 0px 20px 0px;
+  padding: 16px 10px;
+  width: 100%;
+  max-width: 300px;
+  letter-spacing: 2px;
+  color: rgb(123, 141, 141);
+  font-family: Lora;
+  text-align: center;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 2px solid rgb(4, 0, 8);
+  box-shadow: 5px 5px 5px 2px burlywood;
+  background-color: chartreuse;
+}
+/* Тренировка */
+.trenning {
+  position: relative;
+  margin: 60px 0px 0px 20px;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  font-family: Acrom;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 90px;
+  vertical-align: bottom;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #51df0f 25%, #5eaf08 56%, #90af2a 70%);
+  box-shadow: -25px 50px 50px 30px rgb(7, 109, 20);
+  color: rgb(55, 56, 56);
+  align-content: center;
+  overflow: auto;
+}
+.img_cat {
+  display: inline-block;
+  padding: 70px 0px 0px 0px;
+}
+.text_attention {
+  color: #ff0000;
+  font-family: Futura PT;
+  font-weight: bolder;
+  font-size: 40px;
+  border: 2px solid #0a0a0a;
+}
+.trenning_radius {
+  margin: 80px 0px 0px 55px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  vertical-align: bottom;
+  border-radius: 100%;
+  box-sizing: border-box;
+  background-color: rgb(44, 223, 21);
+  box-shadow: 5px 0px 100px 50px rgb(251, 255, 0);
+  color: rgb(2, 29, 29);
+  align-content: center;
+  overflow: hidden;
+}
+.trenning_text {
+  font-family: Acrom;
+  color: rgb(255, 255, 255);
+  font-weight: 25px;
+  text-decoration: line-through #000000;
+}
+.trenning_text1 {
+  text-transform: uppercase;
+  font-family: Futura PT;
+  font-size: 30px;
+  color: #585855;
+  text-shadow: 3px 5px 2px rgb(251, 255, 0);
+}
+.block {
+  position: absolute;
+  display: none;
+}
+.trenning:hover .block {
+  display: block;
+}
+.freelance {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../img/freelance.jpg) 50% / cover no-repeat;
+}
+.v1 {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(../img/v1.jpg) 50% / cover no-repeat;
+}
+.inst {
+  box-shadow: inset #ff0000 -150px 0 100px -100px,
+    inset #ff00ff -250px 0 100px -100px, inset #0000ff -350px 0 100px -100px,
+    inset #00ffff -450px 0 100px -100px, inset #00ff00 -550px 0 100px -100px,
+    inset #ffff00 -650px 0 100px -100px;
+}
+.youtube {
+  background-color: red;
+}
+/* Эксперимент */
+.text_fon {
+  color: white;
+  margin: 40px 0px 0px 0px;
+  display: inline-block;
+  text-shadow: 2px 5px 2px yellowgreen;
+  max-width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  border: 5px solid grey;
+  border-radius: 30px;
+  background: url(../img/greencat.jpg) left no-repeat,
+    url(../img/greencat2.jpg) right repeat;
+}
+.fon_img {
+  max-width: 100%;
+  height: 350px;
+  background: url(../img/4.png) 50%;
+}
+.fon_img2 {
+  max-width: 100%;
+  height: 350px;
+  background: url(../img/1.png) left no-repeat,
+    url(../img/6.png) right no-repeat;
+}
+.fon_img3 {
+  max-width: 100%;
+  height: 350px;
+  background: url(../img/9.png) left no-repeat, url(../img/8.png) 50% no-repeat,
+    url(../img/5.png) right no-repeat;
+}
+.button_up {
+  text-decoration: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 30px 0px 0px 0px;
+  font-family: Acrom;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  color: #ffffff;
+  background: linear-gradient(to right, #b4e391 0%, #61c419 50%, #b4e391 100%);
+  transition: 0.3s;
+}
+.floating-button:hover {
+  padding: 15px;
+  border-radius: 45px;
+  background: #454747;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+  color: white;
+  transform: translateY(-7px);
+}
+.footer {
+  display: block;
+  max-width: 100%;
+  margin: 30px 0px 0px 0px;
+  font-family: Acrom;
+  font-weight: bolder;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 60px;
+  border: 2px solid #000000;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ff0000;
+  border-radius: 20px;
+}
+.foter_foter {
+  max-width: 100%;
+  background: #000000 url(../img/cat.png) right/150px no-repeat;
+}
