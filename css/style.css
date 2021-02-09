@@ -157,15 +157,23 @@ li {
   display: block;
 }
 .freelance {
+  margin: 80px 0px 0px 55px;
   display: inline-block;
+  border-radius: 100%;
   width: 200px;
   height: 200px;
+  box-sizing: border-box;
+  box-shadow: 5px 0px 100px 50px rgb(251, 255, 0);
   background: url(../img/freelance.jpg) 50% / cover no-repeat;
 }
 .v1 {
+  margin: 80px 0px 0px 55px;
   display: inline-block;
+  border-radius: 100%;
   width: 200px;
   height: 200px;
+  box-sizing: border-box;
+  box-shadow: 5px 0px 100px 50px rgb(251, 255, 0);
   background: url(../img/v1.jpg) 50% / cover no-repeat;
 }
 .inst {
